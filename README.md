@@ -27,8 +27,13 @@ To reset the timer, in case of an accidental start, tap the **Reset** button. An
 
 This App was made by following these tutorials:
 [Clock Timer](https://medium.com/ios-os-x-development/build-an-stopwatch-with-swift-3-0-c7040818a10f)
+
 [UIButton animation](https://www.youtube.com/watch?v=ox2MieJzcRQ)
+
 [Alerts](https://www.youtube.com/watch?time_continue=469&v=4EAGIiu7SFU)
+
 [Vibration](https://stackoverflow.com/questions/26455880/how-to-make-iphone-vibrate-using-swift)
+
 [Markdown file editing](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes)
+
 
