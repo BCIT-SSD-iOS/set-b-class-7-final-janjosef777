@@ -37,6 +37,8 @@ This App was made by following these tutorials:
 
 [Alerts](https://www.youtube.com/watch?time_continue=469&v=4EAGIiu7SFU)
 
+[Sounds](https://stackoverflow.com/questions/47619607/how-to-play-a-sound-on-ios-11-with-swift-4-and-where-i-place-the-mp3-file)
+
 [Vibration](https://stackoverflow.com/questions/26455880/how-to-make-iphone-vibrate-using-swift)
 
 [Markdown file editing](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes)
