@@ -24,6 +24,7 @@ To reset the timer, in case of an accidental start, tap the **Reset** button. An
 
 ## To-do / Planned Features
 1.) Play sound when Timer has completed
+
 2.) Keep track of Aegis expiration
 
 ## Resources
