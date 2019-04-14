@@ -1,47 +1,32 @@
-# iOS Development: Practical Experience
-1. [ Introduction ](#1)
-2. [ Pick Your Poison ](#2)
-3. [ Resources ](#3)
-4. [ Submission ](#4)
-
-<a name="1"></a>
-## 1) Introduction
-
-Given the duration and complexity of our lectures so far I have decided to give you some additional time for "hands-on" experience.
-I give you the choice to either:
-- Complete a passion project using the skills that you have learned in the previous 6 classes.
-- Extend and enhance one of our existing apps with NEW functionality.
-- Complete tutorial(s) related to new skills that you are interested in.
+# RoshanTimer
 
 
-<a name="2"></a>
-## 2) Pick Your Poison
+## Introduction
 
-My recommendation on how to make a decision:
-1. If an idea for a passion project comes easily to you and your heart will be in it...I recommend you go this route.
-2. If you cannot come up with something that you are passionate to build, but can see some potential in one of the apps that you have already built? Go for it!
-3. If you are not really into iOS development or you can't envision a project that you can complete in time? Find an online tutorial (or two/three depending on the difficulty) that you can complete today. I will list some below.
+For Players of Dota 2, to keep track of Roshan's death and respawn.
 
-<a name="3"></a>
-## 3) Resources
-Cool frameworks for your consideration:
-[SpriteKit - 2D Animations with Physics Properties](https://developer.apple.com/documentation/spritekit)
-[Core ML - Machine Learning](https://developer.apple.com/documentation/coreml)
-[AR Kit - Augmented Reality
-](https://developer.apple.com/documentation/arkit)
+>Respawning
+>When Roshan is slain, he respawns after a random time between 8–11 minutes. Unlike with other neutral creeps, the respawn cannot be prevented by any means. The players do not get any indicator for when exactly he respawns, but spectators and casters can see a clock at Roshan's spawn point, showing the exact time left for the respawn (not until 5 minutes after Roshan was slain).
 
-Some tutorials of varying length and difficulty:
-- [SpriteKit Beginner Tutorial](https://www.raywenderlich.com/71-spritekit-tutorial-for-beginners)
-- [Built-in Vision API Image Face Detection](https://www.youtube.com/watch?v=d0U5j89M6aI)
-- [CoreML Image Object Detection](https://www.youtube.com/watch?v=p6GA8ODlnX0)
-- [AR Game that could be tons of fun (but you need a newer iPhone and this is tutorial is longer and more challenging)](https://medium.com/libertyit/ar-madness-our-open-source-arkit-game-tutorial-part-one-game-design-and-first-arkit-app-1ba35bea136d)
+[https://dota2.gamepedia.com/Roshan](https://dota2.gamepedia.com/Roshan)
 
-<a name="4"></a>
-## 4) Submission
-Whichever you choose, the deadline for completion is **April 14th, 2019**.
+## Usage
 
-Please ensure that you do not over extend yourself in these final weeks, and under no circumstances should this spill into your Industry Project Time.
+This app counts down from **00:11:00** minutes.
+at the **00:03:00** mark, Roshan *may* be up. The miniRoshan at the middle of the screen turns to red to signify his presence. 
+at **00:00:00**, Roshan is for sure up. The label below the miniRoshan will turn to red to signify this.
 
-If you choose multiple tutorials, ONLY submit completed projects. If you partial finish one please do not include it in your repo.
+To get started, press the **Start** Button.
 
-If you choose multiple tutorials, please create a seperate repo in the BCIT-SSD-iOS organization for each project. When you are complete overwrite the README.md in the Assignment repo with links to each of your repos.
+To reset the timer, in case of an accidental start, tap the **Reset** button. An alert will pop up to confrim that you want to reset. 
+
+
+## Resources
+
+This App was made by following these tutorials:
+[Clock Timer](https://medium.com/ios-os-x-development/build-an-stopwatch-with-swift-3-0-c7040818a10f)
+[UIButton animation](https://www.youtube.com/watch?v=ox2MieJzcRQ)
+[Alerts](https://www.youtube.com/watch?time_continue=469&v=4EAGIiu7SFU)
+[Vibration](https://stackoverflow.com/questions/26455880/how-to-make-iphone-vibrate-using-swift)
+[Markdown file editing](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes)
+
