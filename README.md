@@ -6,14 +6,16 @@
 For Players of Dota 2, to keep track of Roshan's death and respawn.
 
 >Respawning
->When Roshan is slain, he respawns after a random time between 8–11 minutes. Unlike with other neutral creeps, the respawn cannot be prevented by any means. The players do not get any indicator for when exactly he respawns, but spectators and casters can see a clock at Roshan's spawn point, showing the exact time left for the respawn (not until 5 minutes after Roshan was slain).
+>When Roshan is slain, he respawns after a **random time between 8–11 minutes**. Unlike with other neutral creeps, the respawn cannot be prevented by any means. The players do not get any indicator for when exactly he respawns, but spectators and casters can see a clock at Roshan's spawn point, showing the exact time left for the respawn (not until 5 minutes after Roshan was slain).
 
 [https://dota2.gamepedia.com/Roshan](https://dota2.gamepedia.com/Roshan)
 
 ## Usage
 
 This app counts down from **00:11:00** minutes.
+
 at the **00:03:00** mark, Roshan *may* be up. The miniRoshan at the middle of the screen turns to red to signify his presence. 
+
 at **00:00:00**, Roshan is for sure up. The label below the miniRoshan will turn to red to signify this.
 
 To get started, press the **Start** Button.
