@@ -13,6 +13,7 @@
 		3DD2FEDF2263253100D308B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2FEDE2263253100D308B5 /* Assets.xcassets */; };
 		3DD2FEE22263253100D308B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2FEE02263253100D308B5 /* LaunchScreen.storyboard */; };
 		3DD2FEEA226335BF00D308B5 /* Roshan_Death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2FEE9226335BF00D308B5 /* Roshan_Death.wav */; };
+		3DD2FEEF22639D5500D308B5 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2FEEE22639D5500D308B5 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		3DD2FEE12263253100D308B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD2FEE32263253100D308B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD2FEE9226335BF00D308B5 /* Roshan_Death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Roshan_Death.wav; sourceTree = "<group>"; };
+		3DD2FEEC226395D600D308B5 /* Roshan_Death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Roshan_Death.wav; path = RoshanTimer/Assets.xcassets/Roshan_Death.dataset/Roshan_Death.wav; sourceTree = "<group>"; };
+		3DD2FEEE22639D5500D308B5 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,8 @@
 		3DD2FECB2263253100D308B5 = {
 			isa = PBXGroup;
 			children = (
+				3DD2FEEE22639D5500D308B5 /* UIButtonExtension.swift */,
+				3DD2FEEC226395D600D308B5 /* Roshan_Death.wav */,
 				3DD2FED62263253100D308B5 /* RoshanTimer */,
 				3DD2FED52263253100D308B5 /* Products */,
 			);
@@ -141,6 +146,7 @@
 			files = (
 				3DD2FEDA2263253100D308B5 /* ViewController.swift in Sources */,
 				3DD2FED82263253100D308B5 /* AppDelegate.swift in Sources */,
+				3DD2FEEF22639D5500D308B5 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
