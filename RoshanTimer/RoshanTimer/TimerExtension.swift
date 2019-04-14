@@ -13,7 +13,7 @@ import AudioToolbox
 extension ViewController {
   func resetTimer(){
     timer.invalidate()
-    seconds = 660;
+    seconds = 660; // 11 Minutes
     timerLabel.text = timeString(time: TimeInterval(seconds))
     roshStatusLabel.textColor = UIColor.red;
     miniRoshan.image = UIImage(named: "redRosh")
@@ -29,17 +29,15 @@ extension ViewController {
   
   @objc func updateTimer() {
     seconds -= 1;
-    
-    if (seconds == 180){
+    let timerDone = 0;
+    let threeMinsLeft = 180; // 3Minutes
+    if(seconds <= timerDone) {
+      resetTimer()
+    }
+    else if (seconds <= threeMinsLeft){
       miniRoshan.image = UIImage(named: "redRosh")
       roshStatusLabel.textColor = UIColor.yellow;
       roshStatusLabel?.text = "Roshan is maybe up!"
-    }
-    else if(seconds <= 1) {
-      timer.invalidate()
-      roshStatusLabel.textColor = UIColor.red;
-      roshStatusLabel?.text = "ROSHAN IS UP!"
-      AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
     }
     else {
       roshStatusLabel.textColor = UIColor.blue;

@@ -18,14 +18,18 @@ at the **00:03:00** mark, Roshan *may* be up. The miniRoshan at the middle of th
 
 at **00:00:00**, Roshan is for sure up. The label below the miniRoshan will turn to red to signify this.
 
-To get started, press the **Start** Button.
+To get started, press the **Start** Button. This will set the miniRoshan to blue and status text to "Roshan is dead".
 
 To reset the timer, in case of an accidental start, tap the **Reset** button. An alert will pop up to confrim that you want to reset. 
 
+## To-do / Planned Features
+1.) Play sound when Timer has completed
+2.) Keep track of Aegis expiration
 
 ## Resources
 
 This App was made by following these tutorials:
+
 [Clock Timer](https://medium.com/ios-os-x-development/build-an-stopwatch-with-swift-3-0-c7040818a10f)
 
 [UIButton animation](https://www.youtube.com/watch?v=ox2MieJzcRQ)
